@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Learning JS</title>
+</head>
+<body>
+    <h1>Introducción a JS</h1>
+    <div id="mensaje"></div>
+    
+    <script>
+        var nombre = prompt('cual es tu nmbre?');
+
+        document.getElementById('mensaje').innerHTML = `Bienvenid@ ${nombre}`;
+    </script>
+    <!-- Abrir el index con un LiveServer.  -->
+    <!-- El código de lee de arriba abajo, por lo que primero saldrá
+    el prompt solicitando el nombre, y luego se reemplazaré lo escrito en
+    el valor de "nombre"  -->
+    
+</body>
+</html>
